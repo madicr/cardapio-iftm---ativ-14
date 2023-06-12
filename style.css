@@ -1,0 +1,499 @@
+/*    aa  */
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #cfffbb;
+  justify-content: center;
+  align-items: center;
+}
+
+
+header {
+  background: #cfffbb;
+  padding: 50px 0;
+  
+}
+
+#icon {
+  margin-top: 7%;
+ width: 15%;
+ margin: auto;
+ display: block;
+}
+
+/*    ========================================================    */
+
+.MENU {
+  text-align: center;
+ font-size: 125%;
+}
+
+.titulo-principal {
+  text-align: center;
+  }
+
+
+.listamenu {
+  text-align: center;
+  list-style-type: none;
+  font-size: 120%; 
+}
+
+
+.lista_menu {
+  
+  margin-top: -1%;
+  display:inline-block;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  font-size: 120%;
+  
+}
+
+
+
+.titulo-centralizado {
+  text-align: center;
+  justify-content: center;
+  font-weight: bolder;
+  }
+
+
+  nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-style: 22px;
+    text-decoration: none;
+  }
+
+  nav li {
+    padding-top: 3%;
+     margin: 0 0 0 0px;
+     
+  }
+  
+  .caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+  }
+
+   /* =========== CAIXA DO MENU ==============   */
+  .box {
+    width: 400px;
+    height: 200px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.menu {
+    background-color: #79ed8e;
+    color: #000000;
+    padding: 20px;
+    font-size: 160%; 
+    font-weight: bolder;
+}
+
+.item { 
+    background-color: #a4f6a4; /*  ATIVIDADE 13 */
+    color: #000000;
+    padding: 20px;
+    font-size: 120%; 
+    font-weight: bolder;
+}
+
+.item:nth-child(2) {
+    background-color: #a4f6a4; /*CARDAPIO */
+}
+
+.item:nth-child(3) {
+    background-color: #91e987; /* FORMAS PAGAMENTO */
+}
+
+.item:nth-child(4) {
+  background-color: #a4f6a4; /*OUTRAS INFORMACOES  */
+}
+
+.item:nth-child(5) {
+  background-color: #91e987; /*ATIVIDADE 09 */
+}
+
+.item:nth-child(6) {
+  background-color: #a4f6a4; /*ATIVIDADE 11 */
+}
+.item:nth-child(7) {
+  background-color: #91e987; /*ATIVIDADE 12 */
+}
+.item a {
+    text-decoration: none;
+    color: #000000;
+}
+/*    
+======  PAGINA DO CARDAPIO =========    
+  
+.ALIMENTOS {
+  font-weight: bold;
+  background: #cfffbb;
+  padding: 35%;
+  padding-top: 0%;
+  margin-left: -1%;
+ width: 70%; /*   isso aqui é pra nao ter quebra de linha automatica MASS DEIXOU UM ESPACAO NA DIREITA DA PAG  E FEZ O TITULO ALIMENTOS IR PRA DIREITA TB  
+}
+
+.BEBIDAS {
+  font-weight: bold;
+  background: #cfffbb;
+  padding: 35%;
+  margin-top: -67%;
+
+}
+*/
+
+/*    ======  PAGINA DO CARDAPIO =========    */
+table {
+	margin: 20px 0 40px;
+  
+}
+
+
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid #000000;
+	padding: 8px 10px;
+}
+
+
+.tabela-centralizada {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*    ======  PAGINA DE FORMAS DE PAGAMENTO =========    */
+.FORMASPAGAMENTO {
+  font-weight: bold;
+  background: #cfffbb;
+  padding: 40%;
+  padding-top: 0%;
+  line-height: 200%;
+ 
+}
+/*    ======  PAGINA DE FORMAS DE OUTRAS INFORMACOES =========    */
+
+/*    aa  */
+
+/*    =======   PAGINA DA ATIVIDADE 09 ========    */
+
+form {
+  margin: 40px 0;
+}
+
+
+form label, form p, .prefere { /* o prefere é pra descentralizar o "como prefere nosso contato?" */
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+  text-align: left;
+}
+
+
+.input-padrao {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 20px;
+  width: 50%;
+}
+
+.checkbox {
+
+  margin: 20px 0;
+}
+footer {
+	text-align: center;
+  margin-top: 40%;
+	padding: 40px;
+	
+}
+
+
+.copyright {
+	color: #000000;
+	font-size: 16px;
+	margin: 20px 0 0 0;
+
+}
+
+/*    =======   PAGINA DA ATIVIDADE 10 ========    */
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, form legend {
+	display: block;
+	text-align: left;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 20px;
+	width: 50%
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width: 20%;
+	padding: 15px 0;
+	background: orange;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: darkorange;
+	transform: scale(1.2);
+}
+
+/*    ==========================================    */
+/*    =======   PAGINA DA ATIVIDADE 12 ========    */
+/*    ==========================================    */
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+
+
+form {
+  margin: 40px 0;
+}
+
+
+form label, form legend {
+  display: block;
+  text-align: left;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
+
+
+.input-padrao {
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 20px;
+  width: 50%
+}
+
+
+.checkbox {
+  margin: 20px 0;
+}
+
+
+.enviar {
+  width: 20%;
+  padding: 15px 0;
+  background: orange;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+}
+
+
+.enviar:hover {
+  background: darkorange;
+  transform: scale(1.2);
+}
+
+
+table {
+  margin: 20px 0 40px;
+}
+
+
+thead {
+  background: #555555;
+  color: white;
+  font-weight: bold;
+}
+
+
+td, th {
+  border: 1px solid #000000;
+  padding: 8px 10px;
+}
+
+
+.mapa{
+  text-align: center;
+ 
+  padding: 3em 30px;
+  background: linear-gradient(#cfffbb,#58c96c);
+}
+
+
+.video {
+  text-align: center;
+  
+  background: linear-gradient(360deg, #cfffbb, #58c96c);
+}
+
+/*    ==========================================    */
+/*    =====   PAGINA DA ATIVIDADE 13 e 14 ======    */
+/*    ==========================================    */
+
+.titulo-beneficios{
+  font-size: 130%;
+
+}
+
+
+.titulo-beneficios:first-letter {
+  font-size: 1.3em;
+  color:#58c96c;
+}
+
+
+.titulo-beneficios:before {
+content: "> "
+}
+
+
+.titulo-beneficios:after {
+content: "!"
+}
+
+
+
+
+.beneficios {
+ 
+  text-align: center;
+  list-style-type: none;
+  box-shadow: inset 0 0 30px #108708;
+ 
+}
+
+
+.lista-bene {
+  text-align: left;
+  display:inline-block;
+  list-style-type: none;
+  padding: 0;
+  font-size: 110%;
+  
+}
+
+.itens-bene {
+  font-style: italic;
+}
+
+
+.itens-bene:first-child {
+font-weight: bold;
+}
+
+
+.itens-bene:before {
+  content:" 🍆"
+}
+
+
+main > p {
+  background: #58c96c;
+}
+
+
+.fusquinha {
+  margin: auto;
+ display: block;
+  width: 5%;
+}
+
+.fusquinha + p {
+  background: #cfffbb;
+}
+
+
+.fusquinha ~ p {
+  background: #58c96c;
+}
+
+
+#icon13 {
+  margin-top: 7%;
+ width: 15%;
+ margin: auto;
+ display: block;
+}
+.icon13 {
+  width: 15%;
+  margin: auto;
+  display: block;
+  opacity: 0.3;
+  transition: 1000ms;  /* testar transition dentro do hover */
+  box-shadow: 6px 6px 3px 7px #000000, -4px -4px rgb(12, 187, 26), -12px 12px 12px rgb(20, 129, 8);
+}
+
+
+.icon13:hover {
+  opacity: 1;
+
+
+}
+nav {
+	position: absolute;
+	top: 90px;
+	right: 50px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav li ul {
+	position: absolute;
+	top: 30px;
+	left: 230px;
+	padding: 0px 0px;
+	background-color: #FFFFFF;
+	display: none; 
+}
+
+nav li:hover ul {display: block;}
+
+nav li ul li {
+	display: block;
+	width: 200px;
+}
+
+/*    ==========================================    */
+/*  */
